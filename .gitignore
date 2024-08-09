@@ -1,0 +1,8 @@
+# Ignore the environment directory
+myenv/
+
+# Ignore other common files
+*.pyc
+__pycache__/
+*.log
+*.sqlite3
