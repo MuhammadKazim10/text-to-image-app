@@ -4,7 +4,7 @@ import os
 from gradio_client import Client
 
 # Initialize the Gradio client
-client = Client("mukaist/DALLE-4K")
+client = Client("mukaist/DALLE-4K",api_name="/run")
 
 def generate_image(prompt):
     result = client.predict(
